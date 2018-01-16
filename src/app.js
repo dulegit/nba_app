@@ -1,5 +1,5 @@
-const linkStats = 'http://stats.nba.com/stats/drafthistory?LeagueID=00';
-const linkPlayer = 'http://stats.nba.com/stats/commonplayerinfo?LeagueID=00&PlayerID=';
+const linkStats = 'https://stats.nba.com/stats/drafthistory?LeagueID=00';
+const linkPlayer = 'https://stats.nba.com/stats/commonplayerinfo?LeagueID=00&PlayerID=';
 
 const router = new VueRouter({
   routes : [
