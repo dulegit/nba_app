@@ -1,0 +1,57 @@
+body {
+  font-family: verdana, sans-serif;
+  font-size: 14px;
+}
+#app {
+  margin: auto;
+  max-width: 55rem;
+  width: 100%;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+table .thead {
+  background-color: #e3e3e3;
+}
+table tr:hover {
+  opacity: 0.7;
+}
+table tr th {
+  padding: 0.35rem;
+  width: auto;
+}
+table tr td {
+  text-align: center;
+  border-right: 1px solid #e3e3e3;
+  border-left: 1px solid #e3e3e3;
+}
+table tr.player_result_row td {
+  padding: 0.35rem;
+}
+table tr td a {
+  padding: 0.35rem;
+  display: block;
+}
+table tr:nth-child(2n + 3) {
+  background-color: ghostwhite;
+}
+a {
+  color: #2196F3;
+}
+.route-link {
+  margin-top: 1rem;
+}
+.route-link a {
+  background: #3e3e3e;
+  padding: 0.5rem 1rem;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: .3s ease;
+}
+.route-link a:hover,
+.route-link a:focus {
+  background: whitesmoke;
+  color: #3e3e3e;
+}
